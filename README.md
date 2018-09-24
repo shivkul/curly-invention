@@ -1,2 +1,2 @@
 # curly-invention
-CLion and IntelliJ Projects
+CLion, IntelliJ, PHPStorm Projects
