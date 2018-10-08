@@ -11,8 +11,8 @@
 $str_json = file_get_contents('php://input');
 $resp = json_decode($str_json, true);
 $level = "empty";
-if (isset($resp['level'])) $username = $resp['level'];
-$loginStatus = login($username);
+if (isset($resp['level'])) $level = $resp['level'];
+$loginStatus = login($level);
 echo $loginStatus;
 
 function login($level)
